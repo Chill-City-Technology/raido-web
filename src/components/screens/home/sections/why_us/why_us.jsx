@@ -79,9 +79,9 @@ const WhyUs = () => {
     // },
     {
       id: "finance",
-      img: "finance.svg",
-      head: "Flawless Payments",
-      text: "With our latest payment integration technology, Payments are flawless and spontaneous any time.",
+      img: "pinkstars.svg",
+      head: "Pink Stars",
+      text: "Pink Stars by Raido offers safe, women-driven rides with verified drivers and real-time tracking. Book your ride today!",
     },
   ];
 

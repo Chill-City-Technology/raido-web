@@ -8,6 +8,16 @@
     text-align: center;
   }
 
+  .videoContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    iframe {
+      max-width: 895px;
+      border-radius: 10px;
+    }
+  }
+
   h5 {
     display: inline;
     font-size: 18px;

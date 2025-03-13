@@ -47,6 +47,19 @@ const ServicesScreen = () => {
         {currentTab?.id !== "t2" && currentTab?.id !== "t4" && (
           <div className={styles.gap} />
         )}
+        {currentTab?.id === "t2" && (
+          <div className={styles.videoContainer}>
+            <iframe
+              width="100%"
+              height="500"
+              src="https://www.youtube.com/embed/r55Zg0iz-lA"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        )}
         {(currentTab?.id === "t2" || currentTab?.id === "t4") && (
           <>
             <h4
