@@ -14,172 +14,181 @@ const PrivacyPolicy = () => {
       <main className={styles.privacyMain}>
         <h1>Raido Privacy Policy</h1>
         <p>
-          At Raido, we are committed to protecting your privacy. This Privacy
-          Policy explains how we collect, use, and safeguard your personal
-          information when you use our ride-hailing services via our mobile app
-          and website.
+          At Raido, we value your privacy and transparency. This Privacy Policy
+          explains how we collect, use, and safeguard your personal information
+          while using our ride-hailing services via our mobile app and website.
         </p>
         <p>
-          By using Raido's services, you agree to the collection and use of your
-          information in accordance with this policy.
+          By using Raido's services, you consent to the collection and use of
+          your data as described in this policy.
         </p>
 
-        <h2>1. Information We Collect</h2>
+        <h2>1. Information We Collect & Why We Need It</h2>
         <p>
-          We collect various types of information to provide and improve our
-          services for you.
+          To provide a seamless ride-hailing experience, Raido may request
+          access to the following:
         </p>
 
-        <h3>Personal Information</h3>
+        <h3>Location Data (GPS Access) - Required</h3>
         <ul>
           <li>
-            <strong>Contact Information:</strong> Name, email address, phone
-            number.
+            <strong>Purpose:</strong> To enable ride requests, find nearby
+            drivers, and provide accurate pickup/drop-off locations.
           </li>
           <li>
-            <strong>Identification Information:</strong> Driver’s license,
-            government ID (for drivers).
+            <strong>Example:</strong> Your location helps us show available
+            drivers near you and optimize route navigation for efficiency.
           </li>
           <li>
-            <strong>Payment Information:</strong> Credit/debit card details,
-            billing address.
+            <strong>User Control:</strong> You can enable/disable location
+            access via{" "}
+            <strong>Settings &gt; Privacy &gt; Location Services</strong> on
+            your device.
           </li>
         </ul>
 
-        <h3>Usage Data</h3>
+        <h3>Contacts Access (If Requested) - Optional</h3>
         <ul>
           <li>
-            <strong>Ride Information:</strong> Pickup and drop-off locations,
-            date and time of rides, fare details.
+            <strong>Purpose:</strong> To allow users to share ride details with
+            trusted contacts for safety.
           </li>
           <li>
-            <strong>Device Information:</strong> IP address, browser type,
-            device type, operating system.
+            <strong>Example:</strong> If you use the “Share Ride” feature, we
+            access your contacts to send live ride status updates.
           </li>
           <li>
-            <strong>Location Data:</strong> Real-time location information from
-            your device while using the app.
+            <strong>User Control:</strong> You can grant or deny access via{" "}
+            <strong>Settings &gt; Privacy &gt; Contacts</strong> on your device.
           </li>
         </ul>
 
-        <h3>App Tracking Transparency (ATT) & Apple Privacy Compliance</h3>
+        <h3>Microphone Access (If Requested) - Optional</h3>
+        <ul>
+          <li>
+            <strong>Purpose:</strong> To enable hands-free voice features for
+            ride booking and customer support (if applicable).
+          </li>
+          <li>
+            <strong>Example:</strong> If you use voice commands to book a ride
+            or contact support, microphone access is required.
+          </li>
+          <li>
+            <strong>User Control:</strong> You can enable/disable microphone
+            access via <strong>Settings &gt; Privacy &gt; Microphone</strong> on
+            your device.
+          </li>
+        </ul>
+
+        <h3>Other Data We Collect</h3>
+        <ul>
+          <li>
+            <strong>Personal Information:</strong> Name, phone number, email
+            (for account creation and support).
+          </li>
+          <li>
+            <strong>Ride Information:</strong> Pickup/drop-off details, ride
+            history, fare details (for trip management).
+          </li>
+          <li>
+            <strong>Device Information:</strong> IP address, device type, and
+            operating system (for performance improvement).
+          </li>
+        </ul>
+
+        <h2>2. App Tracking Transparency (ATT) - Apple Compliance</h2>
         <p>
-          In compliance with Apple's App Tracking Transparency (ATT) framework,
+          In compliance with Apple’s App Tracking Transparency (ATT) policy,
           Raido may request permission to track your activity across other apps
-          and websites. This helps us deliver personalized services and offers.
+          and websites.
         </p>
         <ul>
           <li>
-            <strong>If you grant permission:</strong> We may collect usage data
-            for marketing and analytics.
+            <strong>Why We Ask:</strong> To provide relevant promotions,
+            personalized recommendations, and app improvements.
           </li>
           <li>
-            <strong>If you deny permission:</strong> Your data will not be
-            shared for tracking across third-party apps.
+            <strong>Your Choice:</strong> You can allow or deny tracking when
+            prompted, or manage it via{" "}
+            <strong>Settings &gt; Privacy &gt; Tracking</strong> on your device.
+          </li>
+          <li>
+            <strong>No Impact on Service:</strong> Denying tracking will not
+            affect your ability to book rides.
           </li>
         </ul>
-        <p>
-          You can change your tracking preferences anytime in your device
-          settings under <strong>Privacy &gt; Tracking</strong>.
-        </p>
 
-        <h2>2. How We Use Your Information</h2>
+        <h2>3. How We Use Your Information</h2>
         <ul>
           <li>
-            <strong>To Provide and Maintain Our Services:</strong> Manage
-            bookings, process payments, and provide customer support.
+            <strong>Provide & Maintain Services:</strong> Process ride requests,
+            payments, and ensure a smooth experience.
           </li>
           <li>
-            <strong>To Improve Our Services:</strong> Analyze usage patterns and
-            enhance app functionality.
+            <strong>Enhance Safety & Security:</strong> Verify identity, prevent
+            fraud, and track rides for passenger and driver safety.
           </li>
           <li>
-            <strong>To Communicate With You:</strong> Send updates, promotional
-            offers, and important service information.
+            <strong>Communicate With You:</strong> Send ride updates,
+            promotions, and important notifications.
           </li>
           <li>
-            <strong>To Ensure Safety and Security:</strong> Monitor and enhance
-            the safety of drivers and passengers.
+            <strong>Improve App Performance:</strong> Analyze usage patterns to
+            enhance app functionality and efficiency.
           </li>
         </ul>
 
-        <h2>3. Sharing Your Information</h2>
+        <h2>4. Sharing Your Information</h2>
         <p>
-          We do not sell or rent your personal information to third parties.
-          However, we may share your information in the following circumstances:
-        </p>
-        <ul>
-          <li>
-            <strong>With Service Providers:</strong> Third-party vendors that
-            help us operate our services (e.g., payment processors).
-          </li>
-          <li>
-            <strong>For Legal Reasons:</strong> To comply with laws, legal
-            processes, or government requests.
-          </li>
-          <li>
-            <strong>To Protect Rights and Safety:</strong> To protect Raido, its
-            users, or the public from fraud, security threats, or harm.
-          </li>
-        </ul>
-
-        <h2>4. Data Security</h2>
-        <p>
-          We implement industry-standard security measures to protect your
-          personal information from unauthorized access, alteration, disclosure,
-          or destruction.
-        </p>
-
-        <h2>5. Data Retention</h2>
-        <p>
-          We retain your personal information for as long as necessary to
-          fulfill the purposes outlined in this Privacy Policy, unless a longer
-          retention period is required by law.
-        </p>
-
-        <h2>6. Your Rights</h2>
-        <p>
-          You have the following rights regarding your personal information:
+          Raido does not sell personal data. Your information may be shared in
+          limited cases:
         </p>
         <ul>
           <li>
-            <strong>Access:</strong> Request a copy of the personal information
-            we hold about you.
+            <strong>With Trusted Service Providers:</strong> Payment processors,
+            mapping services, and customer support teams.
           </li>
           <li>
-            <strong>Correction:</strong> Request corrections to inaccurate or
-            incomplete data.
+            <strong>For Legal Reasons:</strong> If required by law enforcement
+            or government agencies.
           </li>
           <li>
-            <strong>Deletion:</strong> Request deletion of your personal
-            information under certain conditions.
-          </li>
-          <li>
-            <strong>Objection:</strong> Object to the processing of your
-            personal information.
-          </li>
-          <li>
-            <strong>Portability:</strong> Request transfer of your personal
-            information to another entity.
+            <strong>To Ensure Safety:</strong> If necessary to prevent fraud,
+            security threats, or harm.
           </li>
         </ul>
+
+        <h2>5. Data Security & Retention</h2>
         <p>
-          To exercise these rights, please contact us using the details provided
-          below.
+          We use industry-standard security measures to protect your personal
+          data.
+        </p>
+        <p>
+          <strong>Data Retention:</strong> We keep your data only as long as
+          needed for legal, regulatory, and operational purposes.
+        </p>
+        <p>
+          <strong>User Control:</strong> You can request data deletion by
+          contacting our support team.
         </p>
 
-        <h2>7. Changes to This Privacy Policy</h2>
-        <p>
-          We may update this Privacy Policy from time to time. Any changes will
-          be posted on our website and within the app. We recommend reviewing
-          this policy periodically.
-        </p>
+        <h2>6. Your Rights & Choices</h2>
+        <p>You have the right to:</p>
+        <ul>
+          <li>
+            <strong>Access & Update Your Data</strong> via the app settings.
+          </li>
+          <li>
+            <strong>Control Permissions</strong> for location, contacts,
+            microphone, and tracking via your device settings.
+          </li>
+          <li>
+            <strong>Request Data Deletion</strong> if you no longer want to use
+            Raido’s services.
+          </li>
+        </ul>
 
-        <h2>8. Contact Us</h2>
-        <p>
-          If you have any questions or concerns about this Privacy Policy,
-          please contact us at:
-        </p>
+        <p>For privacy-related requests, contact us at:</p>
         <ul>
           <li>
             <strong>Phone:</strong> +91 8667728057
@@ -191,8 +200,8 @@ const PrivacyPolicy = () => {
         </ul>
 
         <p>
-          By using Raido's services, you acknowledge that you have read,
-          understood, and agree to be bound by this Privacy Policy.
+          By using Raido, you acknowledge that you have read, understood, and
+          agree to this Privacy Policy.
         </p>
       </main>
     </div>
