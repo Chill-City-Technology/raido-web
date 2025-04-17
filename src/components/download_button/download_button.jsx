@@ -18,7 +18,10 @@ const DownloadButtons = ({ isHeader }) => {
           className={styles.play}
         />
       </Link>
-      <Link href="/" data-aos={!isHeader && "flip-up"}>
+      <Link
+        href="https://apps.apple.com/in/app/raido/id6743036332"
+        data-aos={!isHeader && "flip-up"}
+      >
         <Image
           className={styles.apl}
           src="/assets/apple.svg"

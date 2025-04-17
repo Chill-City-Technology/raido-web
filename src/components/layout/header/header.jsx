@@ -53,7 +53,7 @@ const Header = () => {
               />
             </Link>
             &nbsp; &nbsp;
-            <Link href="/">
+            <Link href="https://apps.apple.com/in/app/raido/id6743036332">
               <Image
                 src="/assets/apple.svg"
                 alt="logo"
