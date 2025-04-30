@@ -61,18 +61,18 @@ const ReviewsSection = ({ isAbout }) => {
       <div className={styles.fader} />
 
       {/* <CustomContainer> */}
-        <div className={styles.scroller}>
-          <div className={styles.scrollHolder}>
-            {data.map((d, i) => {
-              return <Review key={`scr_${i}`} data={d} />;
-            })}
-          </div>
-          <div className={styles.scrollHolder}>
-            {data.map((d, i) => {
-              return <Review key={`scr_${i}`} data={d} />;
-            })}
-          </div>
+      <div className={styles.scroller}>
+        <div className={styles.scrollHolder}>
+          {data.map((d, i) => {
+            return <Review key={`scr_${i}`} data={d} />;
+          })}
         </div>
+        <div className={styles.scrollHolder}>
+          {data.map((d, i) => {
+            return <Review key={`scr_${i}`} data={d} />;
+          })}
+        </div>
+      </div>
       {/* </CustomContainer> */}
     </section>
   );

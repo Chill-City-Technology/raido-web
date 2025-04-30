@@ -31,7 +31,7 @@ const AboutScreen = () => {
         <div className={styles.ceo}>
           <Row>
             <Col xs={12} md={4}>
-              <Image src="/assets/user.jpg" alt="User" fluid />
+              <Image src="/assets/user.png" alt="User" fluid />
             </Col>
             <Col>
               <div className={styles.message}>
