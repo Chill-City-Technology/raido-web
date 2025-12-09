@@ -1,8 +1,7 @@
 const INVESTORS = [
   {
     scheme: "Angel Investors",
-    description:
-      "Curated operator-angels who invest at seed to pre-Series A in mobility, EV, and logistics, bringing networks plus hands-on support.",
+    description: "",
     investors: [
       {
         name: "Mr. Raju",
@@ -15,8 +14,7 @@ const INVESTORS = [
   },
   {
     scheme: "ASIIM",
-    description:
-      "Investors aligned with the Atal Social Innovation & Incubation Mission, backing inclusive, impact-first ventures with patient capital.",
+    description: "",
     investors: [
       {
         name: "IFCI Ventures",
