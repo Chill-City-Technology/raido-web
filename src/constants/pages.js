@@ -12,6 +12,10 @@ const PAGES = [
     href: "/services",
   },
   {
+    name: "Investors",
+    href: "/investors",
+  },
+  {
     name: "Contact",
     href: "/contact",
   },

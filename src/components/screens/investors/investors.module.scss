@@ -1,0 +1,170 @@
+.investorsScreen {
+  padding: 60px 0 90px 0;
+  background: radial-gradient(circle at 18% 24%, #e8f4ff 0, transparent 26%),
+    radial-gradient(circle at 84% 12%, #fff7d6 0, transparent 22%),
+    linear-gradient(180deg, #f9fbff 0%, #ffffff 100%);
+
+  .intro {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+    color: #2d3d4f;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .schemes {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .scheme {
+    background: white;
+    padding: 28px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e6eef6;
+  }
+
+  .schemeHeader {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .schemeBadge {
+    display: inline-block;
+    padding: 10px 18px;
+    background: $color_2;
+    color: #1c2735;
+    font-weight: 800;
+    border-radius: 999px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
+  .schemeCopy {
+    margin: 0;
+    color: #314258;
+    font-size: 16px;
+    line-height: 1.5;
+    flex: 1;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+
+  .card {
+    height: 100%;
+    background: #fdfefe;
+    border-radius: 16px;
+    border: 1px solid #dfe8f2;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 10px 30px rgba(0, 29, 73, 0.08);
+    border-top: 6px solid $color_1;
+
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 38px rgba(0, 29, 73, 0.14);
+    }
+  }
+
+  .cardHeader {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .logoWrap {
+    width: 82px;
+    height: 82px;
+    border-radius: 14px;
+    background: #f2f7ff;
+    border: 1px solid #d7e6fb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .logoFallback {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #e8f3ff 0%, #d1e9ff 100%);
+    color: #0f447b;
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    margin: 0;
+    color: #0f1f35;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .visit {
+    color: $color_1;
+    font-weight: 700;
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .description {
+    margin: 0;
+    color: #243449;
+    font-size: 15px;
+    line-height: 1.6;
+    flex: 1;
+  }
+
+  @include respond-below(xl) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @include respond-below(md) {
+    padding: 40px 0 60px 0;
+
+    .intro {
+      font-size: 16px;
+      margin-bottom: 28px;
+    }
+
+    .scheme {
+      padding: 18px;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
