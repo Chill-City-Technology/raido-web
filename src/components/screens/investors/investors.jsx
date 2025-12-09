@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 import { ArrowUpRight } from "react-bootstrap-icons";
 import SectionHeading from "@/components/ui/section_heading/section_heading";
 import CustomContainer from "@/components/ui/custom_container/custom_container";
-import investorsData from "@/constants/investors.json";
+import investorsData from "@/constants/investors";
 import styles from "./investors.module.scss";
 
 const getInitials = (name = "") =>
